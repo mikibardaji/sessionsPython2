@@ -1,0 +1,9 @@
+numero = 5
+cont_num=0
+acu_suma = 0
+while (numero!=666):
+    numero = int(input("pon un numero "))
+    if (numero != 666):
+        print("has escrito  ", numero)
+        acu_suma = acu_suma + numero
+print("La suma total es ", acu_suma , "")
