@@ -46,3 +46,4 @@ ciudadano3.andar()
 print("mato al ciudadano")
 ciudadano3.kill()
 ciudadano3.andar()
+#Crea una classe Rectangle amb els atributs base i alçada. Afegeix un mètode per calcular l'àrea ($base \times alçada$).
