@@ -24,6 +24,8 @@ class Person:
         for i in range(0, self.km): # Bucle for para imprimir el numero de kilometros que ha andado el objeto que llama al metodo, se ejecuta desde 1 hasta km+1, ya que el rango no incluye el ultimo numero
             print("=", end="") # Imprime un "=" sin salto de linea, el parametro end="" hace que no se imprima un salto de linea al final de la impresion
 
+
+#Programa principal
 ciudadano1 = Person("Enric",20,"Barcelona") # Creación de un objeto de la clase Person, se le pasan los parametros name2, age y city
 ciudadano2 = Person("Alex",18,"Hospitalet") # Creación de otro objeto de la clase Person, se le pasan los parametros name2, age y city
 ciudadano3 = Person("Jefferson",19,"Cornella") # Creación de otro objeto de la clase Person, se le pasan los parametros name2, age y city
