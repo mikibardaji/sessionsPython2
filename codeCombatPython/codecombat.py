@@ -5,13 +5,12 @@ class heroi:
         self.vida = vida
         self.ataque = ataque
 
-    def 
+    def dimeNombre(self):
+        print("O nome do heroi é: " + self.nome)
 
 
 #programa principal para ejercicio 0
-# heroi1 = heroi("Guerreiro", 100, 20)
-# heroi1.dimeNombre()
+heroi1 = heroi("Guerreiro", 100, 20)
+heroi1.dimeNombre()
 
 #programa principal para ejercicio 1
-fdffd
-dfdfdf
